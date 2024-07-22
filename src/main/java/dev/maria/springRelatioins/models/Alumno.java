@@ -22,6 +22,9 @@ public class Alumno {
     )
     private Set<Asignatura> asignaturas;
 
+
+    // getters y setters 
+    
     public Long getId() {
         return id;
     }
@@ -52,9 +55,5 @@ public class Alumno {
 
     public void setAsignaturas(Set<Asignatura> asignaturas) {
         this.asignaturas = asignaturas;
-    }
-
-    // getters y setters
-
-    
+    }    
 }
